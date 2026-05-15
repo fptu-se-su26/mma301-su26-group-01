@@ -1,56 +1,53 @@
 # AI Learning Reflection
 
-## 1. Thông tin chung
+## 1. General Information
 
-| Thông tin | Nội dung |
+| Item | Details |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày hoàn thành reflection |  |
+| Course |  |
+| Class |  |
+| Semester |  |
+| Assignment / Project |  |
+| Student / Team |  |
+| Student IDs |  |
+| Instructor |  |
+| Reflection Date |  |
 
 ---
 
-## 2. Mục đích Reflection
+## 2. Purpose of Reflection
 
-File này dùng để sinh viên/nhóm tự đánh giá quá trình sử dụng AI trong học tập và thực hiện bài tập, lab, assignment hoặc project.
+This file is used to reflect on how AI was used during the project and what the team learned from that process.
 
-Reflection cần thể hiện:
+The reflection should show:
 
-- AI đã hỗ trợ gì trong quá trình học.
-- Sinh viên/nhóm đã kiểm chứng kết quả AI như thế nào.
-- Sinh viên/nhóm đã tự chỉnh sửa, cải tiến ra sao.
-- Sinh viên/nhóm học được gì về môn học.
-- Sinh viên/nhóm học được gì về cách sử dụng AI minh bạch và có trách nhiệm.
+- What AI helped with.
+- How the team verified AI output.
+- What the team edited or improved.
+- What the team learned about the subject.
+- What the team learned about responsible AI usage.
 
 ---
 
-## 3. Tóm tắt quá trình sử dụng AI
+## 3. Summary of AI Usage
 
-Mô tả ngắn gọn quá trình sử dụng AI trong bài tập/project này.
+Provide a short summary of how AI was used in the project.
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-Gợi ý:
+Guiding questions:
 
-- Em/nhóm đã dùng AI ở giai đoạn nào?
-- Dùng AI để hỗ trợ việc gì?
-- Công cụ AI nào được sử dụng nhiều nhất?
-- AI có giúp cải thiện chất lượng bài làm không?
-- Có phần nào AI gợi ý nhưng em/nhóm không sử dụng không?
+- At which stage was AI used?
+- What tasks did AI support?
+- Which AI tool was used most often?
+- Did AI improve the quality of the work?
+- Were there suggestions from AI that were not used?
 
 ---
 
-## 4. Công cụ AI đã sử dụng
-
-Đánh dấu các công cụ AI đã sử dụng.
+## 4. AI Tools Used
 
 - [ ] ChatGPT
 - [ ] Gemini
@@ -60,330 +57,310 @@ Gợi ý:
 - [ ] Antigravity
 - [ ] Microsoft Copilot
 - [ ] Perplexity
-- [ ] Công cụ khác: ....................................
+- [ ] Other: ....................................
 
-### Công cụ được sử dụng nhiều nhất
+### Most Used Tool
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-### Lý do sử dụng công cụ đó
+### Why This Tool Was Used
 
 ```text
-Viết tại đây...
-```
-
----
-
-## 5. AI đã hỗ trợ em/nhóm ở điểm nào?
-
-Đánh dấu các nội dung phù hợp.
-
-- [ ] Hiểu yêu cầu đề bài
-- [ ] Phân tích bài toán
-- [ ] Tìm ý tưởng giải pháp
-- [ ] Thiết kế database
-- [ ] Thiết kế giao diện
-- [ ] Thiết kế kiến trúc hệ thống
-- [ ] Viết code mẫu
-- [ ] Debug lỗi
-- [ ] Viết test case
-- [ ] Review code
-- [ ] Tối ưu code
-- [ ] Kiểm tra bảo mật
-- [ ] Viết báo cáo
-- [ ] Chuẩn bị thuyết trình
-- [ ] Tìm hiểu công nghệ mới
-- [ ] Khác: ....................................
-
-### Mô tả chi tiết
-
-```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-## 6. AI có giúp em/nhóm học tốt hơn không?
+## 5. What Did AI Help With?
 
-### 6.1. Những điểm AI giúp em/nhóm học tốt hơn
+Check all that apply.
 
-```text
-Viết tại đây...
-```
+- [ ] Understanding the assignment
+- [ ] Analyzing the problem
+- [ ] Generating ideas
+- [ ] Database design
+- [ ] UI design
+- [ ] System architecture design
+- [ ] Sample code writing
+- [ ] Debugging
+- [ ] Writing test cases
+- [ ] Code review
+- [ ] Code optimization
+- [ ] Security review
+- [ ] Report writing
+- [ ] Presentation preparation
+- [ ] Learning new technology
+- [ ] Other: ....................................
 
-Gợi ý:
-
-- Hiểu bài nhanh hơn.
-- Có thêm ví dụ minh họa.
-- Biết cách debug lỗi.
-- Biết thêm cách tổ chức code.
-- Biết thêm cách thiết kế giải pháp.
-- Biết cách viết test case.
-- Biết cách cải thiện báo cáo hoặc slide.
-
-### 6.2. Những điểm AI chưa giúp tốt hoặc gây khó khăn
-
-```text
-Viết tại đây...
-```
-
-Gợi ý:
-
-- AI trả lời sai.
-- AI sinh code không chạy.
-- AI hiểu sai yêu cầu đề bài.
-- AI đưa giải pháp quá phức tạp.
-- AI thiếu ngữ cảnh môn học.
-- AI trả lời chung chung.
-- AI khiến em/nhóm dễ phụ thuộc.
-
-### 6.3. Em/nhóm có bị phụ thuộc vào AI không?
-
-- [ ] Không phụ thuộc
-- [ ] Phụ thuộc ít
-- [ ] Phụ thuộc trung bình
-- [ ] Phụ thuộc nhiều
-
-Giải thích:
+### Detailed Description
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-## 7. Em/nhóm đã kiểm tra kết quả AI như thế nào?
+## 6. Did AI Help the Team Learn Better?
 
-Đánh dấu các cách đã sử dụng.
-
-- [ ] Chạy thử chương trình
-- [ ] Kiểm tra output
-- [ ] Viết test case
-- [ ] So sánh với yêu cầu đề bài
-- [ ] Đối chiếu với tài liệu môn học
-- [ ] Review code
-- [ ] Hỏi lại giảng viên
-- [ ] Tra cứu tài liệu chính thống
-- [ ] Thảo luận với thành viên nhóm
-- [ ] Kiểm tra bằng dữ liệu mẫu
-- [ ] So sánh trước và sau khi dùng AI
-- [ ] Khác: ....................................
-
-### Mô tả quá trình kiểm chứng
+### 6.1. How AI Helped
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-### Ví dụ cụ thể về một lần kiểm chứng
+### 6.2. Limitations or Difficulties
 
-| Nội dung | Mô tả |
+```text
+Write here...
+```
+
+### 6.3. Dependency on AI
+
+- [ ] No dependency
+- [ ] Low dependency
+- [ ] Moderate dependency
+- [ ] High dependency
+
+Explanation:
+
+```text
+Write here...
+```
+
+---
+
+## 7. How Was AI Output Verified?
+
+Check all methods used.
+
+- [ ] Running the program
+- [ ] Checking output
+- [ ] Writing test cases
+- [ ] Comparing with the assignment requirements
+- [ ] Referring to course materials
+- [ ] Reviewing code
+- [ ] Asking the instructor again
+- [ ] Consulting official documentation
+- [ ] Discussing with team members
+- [ ] Testing with sample data
+- [ ] Comparing before and after AI usage
+- [ ] Other: ....................................
+
+### Verification Process
+
+```text
+Write here...
+```
+
+### One Concrete Verification Example
+
+| Item | Description |
 |---|---|
-| AI đã gợi ý gì? |  |
-| Em/nhóm đã kiểm tra bằng cách nào? |  |
-| Kết quả kiểm tra | Đúng / Sai / Cần chỉnh sửa |
-| Em/nhóm đã xử lý tiếp như thế nào? |  |
+| What did AI suggest? |  |
+| How was it checked? |  |
+| Verification result | Correct / Incorrect / Needs revision |
+| What was done next? |  |
 
 ---
 
-## 8. Ví dụ AI gợi ý sai hoặc chưa phù hợp
+## 8. Example of Incorrect or Unsuitable AI Output
 
-Ghi lại ít nhất một ví dụ nếu có.
+Record at least one example if available.
 
-| Nội dung | Mô tả |
+| Item | Description |
 |---|---|
-| AI đã gợi ý gì? |  |
-| Vì sao gợi ý đó sai/chưa phù hợp? |  |
-| Em/nhóm phát hiện bằng cách nào? |  |
-| Em/nhóm đã sửa như thế nào? |  |
-| Bài học rút ra |  |
+| What did AI suggest? |  |
+| Why was it incorrect or unsuitable? |  |
+| How was the issue detected? |  |
+| How was it fixed? |  |
+| Lesson learned |  |
 
-Nếu không có trường hợp AI gợi ý sai, hãy ghi rõ:
+If there was no serious AI mistake, write:
 
 ```text
-Trong quá trình thực hiện, em/nhóm chưa ghi nhận trường hợp AI gợi ý sai nghiêm trọng. Tuy nhiên, em/nhóm vẫn kiểm tra lại kết quả AI trước khi sử dụng.
+During the project, we did not record any serious AI error. However, we still verified AI output before using it.
 ```
 
 ---
 
-## 9. Phần đóng góp thật sự của sinh viên/nhóm
+## 9. Real Contribution of the Student / Team
 
-Mô tả rõ phần nào là đóng góp chính của sinh viên/nhóm, không phải chỉ copy từ AI.
+Describe which parts were truly contributed by the student or team, not copied directly from AI.
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-Gợi ý:
+Guiding ideas:
 
-- Tự phân tích yêu cầu.
-- Tự chọn giải pháp.
-- Tự chỉnh sửa code.
-- Tự kiểm tra output.
-- Tự thiết kế logic.
-- Tự sửa lỗi.
-- Tự viết báo cáo theo hiểu biết của mình.
-- Tự đánh giá ưu/nhược điểm của sản phẩm.
-- Tự thuyết trình và giải thích sản phẩm.
+- Analyzed the requirements.
+- Chose the solution.
+- Edited the code.
+- Checked the output.
+- Designed the logic.
+- Fixed errors.
+- Wrote the report based on understanding.
+- Evaluated strengths and weaknesses.
+- Presented and explained the product.
 
 ---
 
-## 10. So sánh trước và sau khi dùng AI
+## 10. Before and After AI Usage
 
-| Nội dung | Trước khi dùng AI | Sau khi dùng AI | Cải thiện đạt được |
+| Item | Before AI | After AI | Improvement |
 |---|---|---|---|
-| Hiểu yêu cầu |  |  |  |
-| Phân tích bài toán |  |  |  |
-| Thiết kế giải pháp |  |  |  |
-| Code/Implementation |  |  |  |
-| Debug/Testing |  |  |  |
-| Báo cáo/Thuyết trình |  |  |  |
-| Làm việc nhóm |  |  |  |
+| Understanding the requirements |  |  |  |
+| Problem analysis |  |  |  |
+| Solution design |  |  |  |
+| Code / implementation |  |  |  |
+| Debugging / testing |  |  |  |
+| Report / presentation |  |  |  |
+| Teamwork |  |  |  |
 
 ---
 
-## 11. Bài học về môn học
+## 11. Lesson About the Subject
 
-Sau bài tập/project này, em/nhóm học được gì về kiến thức môn học?
+What did the team learn about the subject after completing this project?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-Gợi ý:
+Guiding ideas:
 
-- Kiến thức kỹ thuật đã hiểu rõ hơn.
-- Kỹ năng lập trình đã cải thiện.
-- Cách thiết kế hệ thống.
-- Cách kiểm thử.
-- Cách phân tích yêu cầu.
-- Cách làm việc nhóm.
-- Cách giải quyết lỗi.
-- Cách trình bày sản phẩm.
-- Cách đọc và hiểu tài liệu kỹ thuật.
+- Better understanding of technical concepts.
+- Improved programming skills.
+- Better system design skills.
+- Better testing skills.
+- Better requirement analysis.
+- Better teamwork.
+- Better debugging skills.
+- Better presentation skills.
+- Better ability to read technical documentation.
 
 ---
 
-## 12. Bài học về sử dụng AI có trách nhiệm
+## 12. Lesson About Responsible AI Use
 
-Sau bài tập/project này, em/nhóm học được gì về việc sử dụng AI một cách minh bạch, có trách nhiệm?
+What did the team learn about using AI transparently and responsibly?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-Gợi ý:
+Guiding ideas:
 
-- Không nên copy nguyên kết quả AI.
-- Cần kiểm tra lại mọi kết quả AI.
-- Cần hiểu nội dung trước khi nộp.
-- Cần ghi nhận việc sử dụng AI.
-- Cần biết AI có thể sai.
-- Cần tự chịu trách nhiệm với sản phẩm cuối cùng.
-- Cần dùng AI như công cụ hỗ trợ học tập, không thay thế hoàn toàn việc học.
+- Do not copy AI output without understanding it.
+- Always verify AI results.
+- Understand the content before submitting.
+- Record AI usage clearly.
+- Remember that AI can be wrong.
+- Take responsibility for the final product.
+- Use AI as a learning tool, not a full replacement for learning.
 
 ---
 
-## 13. Điều em/nhóm sẽ không làm khi sử dụng AI
+## 13. What the Team Will Not Do When Using AI
 
-Đánh dấu các cam kết phù hợp.
+Check the statements that apply.
 
-- [ ] Không dùng AI để làm toàn bộ bài mà không hiểu nội dung.
-- [ ] Không nộp nguyên văn kết quả AI nếu chưa kiểm tra.
-- [ ] Không che giấu việc sử dụng AI trong các phần quan trọng.
-- [ ] Không dùng AI để tạo nội dung sai lệch hoặc gian lận.
-- [ ] Không dùng AI thay thế hoàn toàn quá trình học.
-- [ ] Không bỏ qua yêu cầu, rubric hoặc hướng dẫn của giảng viên.
+- [ ] Use AI to do the whole assignment without understanding it.
+- [ ] Submit AI output without checking it first.
+- [ ] Hide AI usage in important parts.
+- [ ] Use AI to generate misleading or dishonest content.
+- [ ] Use AI to replace the learning process completely.
+- [ ] Ignore the instructor’s requirements or rubric.
 
-### Giải thích thêm nếu có
+### Additional Explanation
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-## 14. Kế hoạch cải thiện lần sau
+## 14. Improvement Plan for Next Time
 
-Lần sau em/nhóm sẽ sử dụng AI tốt hơn bằng cách nào?
+How will the team use AI better next time?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-Gợi ý:
+Guiding ideas:
 
-- Viết prompt rõ hơn.
-- Cung cấp nhiều ngữ cảnh hơn cho AI.
-- Không hỏi AI làm toàn bộ bài.
-- Tập trung hỏi AI giải thích, gợi ý, review.
-- Tự kiểm tra kỹ hơn.
-- Ghi log thường xuyên hơn.
-- Liên kết log với commit/screenshot rõ hơn.
-- Thảo luận với nhóm trước khi áp dụng kết quả AI.
-- Đối chiếu kết quả AI với tài liệu môn học.
+- Write clearer prompts.
+- Provide more context.
+- Do not ask AI to do the whole assignment.
+- Ask AI to explain, suggest, or review.
+- Check results more carefully.
+- Keep logs more consistently.
+- Link logs with commits or screenshots.
+- Discuss with the team before applying AI output.
+- Compare AI output with course materials.
 
 ---
 
-## 15. Tự đánh giá mức độ hoàn thành
+## 15. Self-Evaluation
 
-Sinh viên/nhóm tự đánh giá theo thang 1-5.
+Rate the team’s performance from 1 to 5.
 
-| Tiêu chí | Điểm tự đánh giá 1-5 | Ghi chú |
+| Criterion | Score 1-5 | Notes |
 |---|:---:|---|
-| Ghi nhận việc dùng AI trung thực |  |  |
-| Prompt có mục tiêu rõ ràng |  |  |
-| Kiểm chứng kết quả AI |  |  |
-| Tự chỉnh sửa/cải tiến |  |  |
-| Hiểu nội dung đã nộp |  |  |
-| Reflection có chiều sâu |  |  |
-| Sử dụng AI có trách nhiệm |  |  |
+| Honest AI reporting |  |  |
+| Clear prompt objectives |  |  |
+| Verifying AI output |  |  |
+| Editing and improving output |  |  |
+| Understanding what was submitted |  |  |
+| Depth of reflection |  |  |
+| Responsible AI use |  |  |
 
 ---
 
-## 16. Câu hỏi tự vấn cuối bài
+## 16. Final Self-Check Questions
 
-Trả lời ngắn gọn các câu hỏi sau.
+Answer briefly.
 
-### 16.1. Nếu giảng viên hỏi về phần AI đã hỗ trợ, em/nhóm có giải thích lại được không?
+### 16.1. Can the team explain the AI-assisted parts if asked by the instructor?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-### 16.2. Nếu không có AI, em/nhóm có thể tự làm lại phần quan trọng nhất không?
+### 16.2. If AI were unavailable, could the team redo the most important part independently?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-### 16.3. Phần nào trong bài thể hiện rõ nhất năng lực thật sự của em/nhóm?
+### 16.3. Which part of the project best shows the team’s real capability?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-### 16.4. Em/nhóm muốn cải thiện kỹ năng nào sau bài này?
+### 16.4. What skill does the team want to improve after this project?
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-## 17. Cam kết Reflection
+## 17. Reflection Commitment
 
-Em/nhóm cam kết rằng nội dung reflection này phản ánh trung thực quá trình sử dụng AI và quá trình học tập trong bài tập/project.
+The team confirms that this reflection is an honest record of AI usage and learning during the project.
 
-Sinh viên/nhóm hiểu rằng:
+The team understands that:
 
-- AI là công cụ hỗ trợ học tập, không thay thế hoàn toàn năng lực cá nhân.
-- Mọi kết quả AI gợi ý cần được kiểm tra trước khi sử dụng.
-- Sinh viên/nhóm chịu trách nhiệm với sản phẩm cuối cùng.
-- Sinh viên/nhóm cần giải thích được các phần đã nộp.
+- AI is a learning aid, not a replacement for personal skill.
+- Every AI suggestion must be checked before use.
+- The team is responsible for the final submission.
+- The team must be able to explain all submitted parts.
 
-| Đại diện sinh viên/nhóm | Ngày xác nhận |
+| Team Representative | Confirmation Date |
 |---|---|
 |  |  |

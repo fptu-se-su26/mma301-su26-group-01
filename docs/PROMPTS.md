@@ -1,40 +1,37 @@
 # Prompt Log
 
-## 1. Thông tin chung
+## 1. General Information
 
-| Thông tin | Nội dung |
+| Item | Details |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày bắt đầu |  |
-| Ngày cập nhật gần nhất |  |
+| Course |  |
+| Class |  |
+| Semester |  |
+| Assignment / Project |  |
+| Student / Team |  |
+| Student IDs |  |
+| Instructor |  |
+| Start Date |  |
+| Last Updated |  |
 
 ---
 
-## 2. Mục đích của file Prompt Log
+## 2. Purpose of the Prompt Log
 
-File này dùng để ghi lại các prompt quan trọng đã sử dụng trong quá trình thực hiện bài tập, lab, assignment hoặc project.
+This file records the important prompts used during the project.
 
-Sinh viên/nhóm cần ghi lại:
+The team should capture:
 
-- Đã hỏi AI điều gì.
-- Mục đích sử dụng prompt.
-- Công cụ AI đã sử dụng.
-- AI đã trả lời hoặc gợi ý gì.
-- Kết quả đó có được áp dụng vào bài hay không.
-- Sinh viên/nhóm đã kiểm tra, chỉnh sửa hoặc cải tiến gì sau khi nhận kết quả từ AI.
+- What was asked from AI.
+- Why the prompt was used.
+- Which AI tool was used.
+- What AI answered or suggested.
+- Whether the result was applied.
+- What was checked, edited, or improved after receiving the AI output.
 
 ---
 
-## 3. Công cụ AI đã sử dụng
-
-Đánh dấu các công cụ AI đã sử dụng.
+## 3. AI Tools Used
 
 - [ ] ChatGPT
 - [ ] Gemini
@@ -44,179 +41,229 @@ Sinh viên/nhóm cần ghi lại:
 - [ ] Antigravity
 - [ ] Microsoft Copilot
 - [ ] Perplexity
-- [ ] Công cụ khác: ....................................
+- [ ] Other: ....................................
 
 ---
 
-## 4. Bảng tổng hợp prompt đã sử dụng
+## 4. Prompt Summary Table
 
-| STT | Ngày | Công cụ AI | Mục đích | Prompt tóm tắt | Kết quả chính | Có sử dụng vào bài không? | Minh chứng |
+| No. | Date | AI Tool | Purpose | Prompt Summary | Main Result | Used in the project? | Evidence |
 |---:|---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  | Có / Không |  |
-| 2 |  |  |  |  |  | Có / Không |  |
-| 3 |  |  |  |  |  | Có / Không |  |
-| 4 |  |  |  |  |  | Có / Không |  |
-| 5 |  |  |  |  |  | Có / Không |  |
-| 6 |  |  |  |  |  | Có / Không |  |
-| 7 |  |  |  |  |  | Có / Không |  |
-| 8 |  |  |  |  |  | Có / Không |  |
-| 9 |  |  |  |  |  | Có / Không |  |
-| 10 |  |  |  |  |  | Có / Không |  |
+| 1 | 2026-05-12 | ChatGPT | Design | Design an initial database schema | Suggested a structured table model and relationships | Yes | AI_AUDIT_LOG.md |
+| 2 | 2026-05-13 | GitHub Copilot | Review | Review code structure and readability | Suggested clearer component structure and naming | Yes | AI_AUDIT_LOG.md |
+| 3 | 2026-05-14 | ChatGPT | Documentation | Improve project documentation wording | Suggested clearer headings and concise technical language | Yes | AI_AUDIT_LOG.md |
 
 ---
 
-## 5. Prompt chi tiết
+## 5. Detailed Prompts
 
-> Sinh viên/nhóm có thể nhân bản mẫu “Prompt số...” nhiều lần tùy số lượng prompt thực tế đã sử dụng.
+### Prompt #01
 
----
-
-### Prompt số 1
-
-| Nội dung | Thông tin |
+| Item | Details |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích |  |
-| Phần việc liên quan | Requirement / Design / Database / Coding / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỏi ý tưởng / Hỏi giải thích / Hỏi review / Hỏi debug / Hỏi sinh code / Hỏi tối ưu |
+| Date | 2026-05-12 |
+| AI Tool | ChatGPT |
+| Purpose | Design a database schema |
+| Related Work | Design / Database |
+| Usage Level | Ask for sample code |
 
-#### 5.1. Prompt nguyên văn
-
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
-
-#### 5.2. Bối cảnh khi viết prompt
-
-Mô tả ngắn gọn vì sao sinh viên/nhóm cần dùng prompt này.
+#### 5.1. Full Prompt
 
 ```text
-Viết tại đây...
+Design a database schema for a student management system using SQL Server.
+The system includes students, teachers, classes, courses, semesters, and grade records.
 ```
 
-#### 5.3. Kết quả AI trả về
-
-Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
+#### 5.2. Context
 
 ```text
-Viết tại đây...
+The team needed a first draft for the database structure before refining business rules.
 ```
 
-#### 5.4. Kết quả đã áp dụng vào bài
-
-Mô tả phần nào từ kết quả AI đã được sử dụng vào bài tập/project.
+#### 5.3. AI Response
 
 ```text
-Viết tại đây...
+The AI suggested the core tables and relationships needed for the system.
 ```
 
-#### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
-
-Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với kết quả AI trả về.
+#### 5.4. Applied Result
 
 ```text
-Viết tại đây...
+The initial structure was used as a starting point for the team’s design work.
 ```
 
-#### 5.6. Đánh giá chất lượng prompt
+#### 5.5. Team Edits and Improvements
 
-Đánh dấu các nhận xét phù hợp.
+```text
+The team adjusted the model to better fit the project requirements and naming conventions.
+```
 
-- [ ] Prompt rõ ràng
-- [ ] Prompt có đủ bối cảnh
-- [ ] Prompt còn thiếu thông tin
-- [ ] Prompt tạo ra kết quả tốt
-- [ ] Prompt tạo ra kết quả chưa phù hợp
-- [ ] Cần hỏi lại AI nhiều lần
-- [ ] Cần tự kiểm tra và chỉnh sửa nhiều
-- [ ] Kết quả AI có lỗi hoặc chưa chính xác
+#### 5.6. Quality Review
 
-#### 5.7. Minh chứng liên quan
+- [x] Prompt was clear
+- [x] Prompt had enough context
+- [ ] Prompt lacked context
+- [x] Prompt produced a useful result
+- [ ] Prompt produced an unsuitable result
+- [ ] Needed multiple follow-up prompts
+- [x] Needed manual verification and editing
+- [ ] AI output contained errors
 
-| Loại minh chứng | Nội dung |
+#### 5.7. Related Evidence
+
+| Evidence Type | Details |
 |---|---|
-| Link commit |  |
-| File liên quan |  |
+| Commit Link |  |
+| Related File |  |
 | Screenshot |  |
-| Kết quả chạy/test |  |
-| Link tài liệu/báo cáo |  |
-| Ghi chú khác |  |
+| Run/Test Result |  |
+| Documentation Link |  |
+| Notes |  |
 
-#### 5.8. Ghi chú thêm
+#### 5.8. Additional Notes
 
 ```text
-Viết tại đây...
+The prompt was useful as a first draft, but the team still had to validate the details carefully.
 ```
 
 ---
 
-### Prompt số 2
+### Prompt #02
 
-| Nội dung | Thông tin |
+| Item | Details |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích |  |
-| Phần việc liên quan | Requirement / Design / Database / Coding / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỏi ý tưởng / Hỏi giải thích / Hỏi review / Hỏi debug / Hỏi sinh code / Hỏi tối ưu |
+| Date | 2026-05-13 |
+| AI Tool | GitHub Copilot |
+| Purpose | Review React Native component structure |
+| Related Work | Frontend / Review |
+| Usage Level | Ask for review |
 
-#### 5.1. Prompt nguyên văn
-
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
-
-#### 5.2. Bối cảnh khi viết prompt
+#### 5.1. Full Prompt
 
 ```text
-Viết tại đây...
+Review this React Native screen and suggest improvements for structure, readability, and style organization.
 ```
 
-#### 5.3. Kết quả AI trả về
+#### 5.2. Context
 
 ```text
-Viết tại đây...
+The team wanted to make the screen easier to read and maintain after the first implementation.
 ```
 
-#### 5.4. Kết quả đã áp dụng vào bài
+#### 5.3. AI Response
 
 ```text
-Viết tại đây...
+The AI suggested breaking the UI into smaller sections and keeping styles grouped consistently.
 ```
 
-#### 5.5. Phần sinh viên/nhóm đã chỉnh sửa hoặc cải tiến
+#### 5.4. Applied Result
 
 ```text
-Viết tại đây...
+The team followed the suggestion to separate the interface into logical blocks.
 ```
 
-#### 5.6. Đánh giá chất lượng prompt
+#### 5.5. Team Edits and Improvements
 
-- [ ] Prompt rõ ràng
-- [ ] Prompt có đủ bối cảnh
-- [ ] Prompt còn thiếu thông tin
-- [ ] Prompt tạo ra kết quả tốt
-- [ ] Prompt tạo ra kết quả chưa phù hợp
-- [ ] Cần hỏi lại AI nhiều lần
-- [ ] Cần tự kiểm tra và chỉnh sửa nhiều
-- [ ] Kết quả AI có lỗi hoặc chưa chính xác
+```text
+The final layout and style details were refined to match the project’s needs.
+```
 
-#### 5.7. Minh chứng liên quan
+#### 5.6. Quality Review
 
-| Loại minh chứng | Nội dung |
+- [x] Prompt was clear
+- [x] Prompt had enough context
+- [ ] Prompt lacked context
+- [x] Prompt produced a useful result
+- [ ] Prompt produced an unsuitable result
+- [ ] Needed multiple follow-up prompts
+- [x] Needed manual verification and editing
+- [ ] AI output contained errors
+
+#### 5.7. Related Evidence
+
+| Evidence Type | Details |
 |---|---|
-| Link commit |  |
-| File liên quan |  |
+| Commit Link |  |
+| Related File |  |
 | Screenshot |  |
-| Kết quả chạy/test |  |
-| Link tài liệu/báo cáo |  |
-| Ghi chú khác |  |
+| Run/Test Result |  |
+| Documentation Link |  |
+| Notes |  |
 
-#### 5.8. Ghi chú thêm
+#### 5.8. Additional Notes
 
 ```text
-Viết tại đây...
+The prompt was short but effective for identifying readability issues.
+```
+
+---
+
+### Prompt #03
+
+| Item | Details |
+|---|---|
+| Date | 2026-05-14 |
+| AI Tool | ChatGPT |
+| Purpose | Improve documentation wording |
+| Related Work | Report / Documentation |
+| Usage Level | Ask for explanation |
+
+#### 5.1. Full Prompt
+
+```text
+Help improve the wording and structure of our project documentation so it is clear, formal, and easy to evaluate.
+```
+
+#### 5.2. Context
+
+```text
+The team wanted the documentation to be more formal and easier for reviewers to follow.
+```
+
+#### 5.3. AI Response
+
+```text
+The AI suggested clearer section titles, more concise writing, and better organization.
+```
+
+#### 5.4. Applied Result
+
+```text
+The team reused the general structure and improved the wording of the final documentation.
+```
+
+#### 5.5. Team Edits and Improvements
+
+```text
+The documentation was rewritten to match the team’s own project context and evaluation requirements.
+```
+
+#### 5.6. Quality Review
+
+- [x] Prompt was clear
+- [x] Prompt had enough context
+- [ ] Prompt lacked context
+- [x] Prompt produced a useful result
+- [ ] Prompt produced an unsuitable result
+- [ ] Needed multiple follow-up prompts
+- [x] Needed manual verification and editing
+- [ ] AI output contained errors
+
+#### 5.7. Related Evidence
+
+| Evidence Type | Details |
+|---|---|
+| Commit Link |  |
+| Related File |  |
+| Screenshot |  |
+| Run/Test Result |  |
+| Documentation Link |  |
+| Notes |  |
+
+#### 5.8. Additional Notes
+
+```text
+AI-generated text was only useful after the team reviewed and adapted it.
 ```
 
 ---

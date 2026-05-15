@@ -1,240 +1,239 @@
-# Changelog
+﻿# Changelog
 
-## 1. Quy định ghi Changelog
+## 1. Changelog Rules
 
-File này dùng để ghi lại các thay đổi quan trọng trong quá trình thực hiện bài tập, lab, assignment hoặc project.
+This file records only changes that were actually completed during the project.
 
-Nguyên tắc ghi changelog:
+Guidelines:
 
-- Chỉ ghi những gì đã hoàn thành thật sự.
-- Không ghi kế hoạch nếu chưa thực hiện.
-- Mỗi thay đổi nên có ngày, nội dung, người thực hiện và minh chứng.
-- Nếu có AI hỗ trợ, cần ghi rõ AI đã hỗ trợ phần nào.
-- Nếu có commit GitHub, cần ghi link commit.
-- Nếu có lỗi đã sửa, cần ghi rõ lỗi, nguyên nhân và cách xử lý.
+- Only record completed work.
+- Do not record plans that were not implemented.
+- Each change should include the date, what changed, who made it, and evidence.
+- If AI was used, note exactly what it helped with.
+- If there is a Git commit, include the commit link or hash.
+- If a bug was fixed, note the issue, root cause, and solution.
 
 ---
 
-## 2. Thông tin project
+## 2. Project Information
 
-| Thông tin | Nội dung |
+| Item | Details |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
+| Course |  |
+| Class |  |
+| Semester |  |
+| Assignment / Project |  |
+| Student / Team |  |
+| Student IDs |  |
+| Instructor |  |
 | Repository URL |  |
-| Ngày bắt đầu |  |
-| Ngày hoàn thành |  |
+| Start Date |  |
+| Completion Date |  |
 
 ---
 
-## 3. Tổng quan các phiên bản/giai đoạn
+## 3. Phase Overview
 
-| Phiên bản/Giai đoạn | Thời gian | Nội dung chính | Trạng thái |
+| Phase | Time | Main Content | Status |
 |---|---|---|---|
-| Phase 01 |  | Khởi tạo project | Not Started / In Progress / Completed |
-| Phase 02 |  | Phân tích yêu cầu | Not Started / In Progress / Completed |
-| Phase 03 |  | Thiết kế hệ thống | Not Started / In Progress / Completed |
+| Phase 01 |  | Project setup | Not Started / In Progress / Completed |
+| Phase 02 |  | Requirement analysis | Not Started / In Progress / Completed |
+| Phase 03 |  | System design | Not Started / In Progress / Completed |
 | Phase 04 |  | Implementation | Not Started / In Progress / Completed |
 | Phase 05 |  | Testing & Debug | Not Started / In Progress / Completed |
-| Phase 06 |  | Hoàn thiện báo cáo và demo | Not Started / In Progress / Completed |
+| Phase 06 |  | Final report and demo | Not Started / In Progress / Completed |
 
 ---
 
-# [Phase 01] Khởi tạo project
+# [Phase 01] Project Setup
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Tạo repository
-- [ ] Tạo cấu trúc thư mục project
-- [ ] Tạo file README.md
-- [ ] Tạo thư mục `docs/`
-- [ ] Tạo file `AI_AUDIT_LOG.md`
-- [ ] Tạo file `PROMPTS.md`
-- [ ] Tạo file `REFLECTION.md`
-- [ ] Tạo file `CHANGELOG.md`
-- [ ] Khởi tạo source code ban đầu
-- [ ] Cài đặt thư viện/công cụ cần thiết
-- [ ] Cấu hình môi trường chạy project
+- [ ] Created repository
+- [ ] Created project folder structure
+- [ ] Created README.md
+- [ ] Created docs/ folder
+- [ ] Created AI_AUDIT_LOG.md
+- [ ] Created PROMPTS.md
+- [ ] Created REFLECTION.md
+- [ ] Created CHANGELOG.md
+- [ ] Created initial source code
+- [ ] Installed required tools/libraries
+- [ ] Configured the run environment
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-# [Phase 02] Phân tích yêu cầu
+# [Phase 02] Requirement Analysis
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Xác định problem statement
-- [ ] Xác định user roles
-- [ ] Viết user stories
-- [ ] Viết use cases
-- [ ] Xác định functional requirements
-- [ ] Xác định non-functional requirements
-- [ ] Xác định business rules
-- [ ] Xác định acceptance criteria
-- [ ] Review yêu cầu với giảng viên/nhóm
-- [ ] Chỉnh sửa yêu cầu sau feedback
+- [ ] Defined the problem statement
+- [ ] Defined user roles
+- [ ] Wrote user stories
+- [ ] Wrote use cases
+- [ ] Defined functional requirements
+- [ ] Defined non-functional requirements
+- [ ] Defined business rules
+- [ ] Defined acceptance criteria
+- [ ] Reviewed requirements with instructor/team
+- [ ] Revised requirements after feedback
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-# [Phase 03] Thiết kế hệ thống
+# [Phase 03] System Design
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Thiết kế kiến trúc tổng quan
-- [ ] Thiết kế database/ERD
-- [ ] Thiết kế API
-- [ ] Thiết kế giao diện/wireframe
-- [ ] Thiết kế flow xử lý
-- [ ] Thiết kế class diagram
-- [ ] Thiết kế sequence diagram
-- [ ] Thiết kế security/authorization flow
-- [ ] Review thiết kế
-- [ ] Chỉnh sửa thiết kế sau feedback
+- [ ] Designed overall architecture
+- [ ] Designed database / ERD
+- [ ] Designed API
+- [ ] Designed UI / wireframes
+- [ ] Designed processing flow
+- [ ] Designed class diagram
+- [ ] Designed sequence diagram
+- [ ] Designed security / authorization flow
+- [ ] Reviewed design
+- [ ] Revised design after feedback
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
 # [Phase 04] Implementation
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Tạo project structure
-- [ ] Cài đặt database connection
-- [ ] Xây dựng backend
-- [ ] Xây dựng frontend
-- [ ] Xây dựng authentication/authorization
-- [ ] Xử lý CRUD
-- [ ] Xử lý validation
-- [ ] Tích hợp API
-- [ ] Xử lý upload/download file
-- [ ] Xử lý lỗi
-- [ ] Tối ưu giao diện
-- [ ] Cập nhật README hướng dẫn chạy
+- [ ] Created project structure
+- [ ] Set up database connection
+- [ ] Built backend
+- [ ] Built frontend
+- [ ] Implemented authentication / authorization
+- [ ] Implemented CRUD
+- [ ] Implemented validation
+- [ ] Integrated APIs
+- [ ] Implemented file upload / download
+- [ ] Fixed errors
+- [ ] Improved UI
+- [ ] Updated README with run instructions
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
@@ -242,56 +241,56 @@ DD/MM/YYYY
 | 4 |  |  |  |  |
 | 5 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
 # [Phase 05] Testing & Debug
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Viết test case
-- [ ] Chạy test chức năng chính
-- [ ] Kiểm tra output
-- [ ] Kiểm tra validation
-- [ ] Kiểm tra lỗi giao diện
-- [ ] Kiểm tra lỗi database
-- [ ] Kiểm tra phân quyền
-- [ ] Kiểm tra bảo mật cơ bản
-- [ ] Fix bug
-- [ ] Chạy lại sau khi fix bug
-- [ ] Ghi nhận kết quả test
+- [ ] Wrote test cases
+- [ ] Ran tests for main features
+- [ ] Checked output
+- [ ] Checked validation
+- [ ] Checked UI issues
+- [ ] Checked database issues
+- [ ] Checked authorization
+- [ ] Checked basic security
+- [ ] Fixed bugs
+- [ ] Re-ran after fixes
+- [ ] Recorded test results
 
-## Danh sách lỗi đã xử lý
+## Fixed Issues
 
-| STT | Lỗi phát hiện | Nguyên nhân | Cách xử lý | Trạng thái |
+| No. | Issue Found | Root Cause | Fix | Status |
 |---:|---|---|---|---|
 | 1 |  |  |  | Open / Fixed / Pending |
 | 2 |  |  |  | Open / Fixed / Pending |
@@ -299,98 +298,98 @@ DD/MM/YYYY
 | 4 |  |  |  | Open / Fixed / Pending |
 | 5 |  |  |  | Open / Fixed / Pending |
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-# [Phase 06] Hoàn thiện báo cáo và demo
+# [Phase 06] Final Report and Demo
 
-## Ngày thực hiện
+## Date
 
 ```text
 DD/MM/YYYY
 ```
 
-## Đã hoàn thành
+## Completed
 
-- [ ] Hoàn thiện source code
-- [ ] Hoàn thiện README.md
-- [ ] Hoàn thiện report
-- [ ] Hoàn thiện slide
-- [ ] Hoàn thiện video demo
-- [ ] Kiểm tra lại `AI_AUDIT_LOG.md`
-- [ ] Kiểm tra lại `PROMPTS.md`
-- [ ] Hoàn thiện `REFLECTION.md`
-- [ ] Kiểm tra lại `CHANGELOG.md`
-- [ ] Đóng gói bài nộp
+- [ ] Finalized source code
+- [ ] Finalized README.md
+- [ ] Finalized report
+- [ ] Finalized slides
+- [ ] Finalized demo video
+- [ ] Checked AI_AUDIT_LOG.md
+- [ ] Checked PROMPTS.md
+- [ ] Finalized REFLECTION.md
+- [ ] Checked CHANGELOG.md
+- [ ] Packaged submission
 
-## Thay đổi chi tiết
+## Change Details
 
-| STT | Nội dung thay đổi | Người thực hiện | File/Module liên quan | Minh chứng |
+| No. | Change | Owner | Related File/Module | Evidence |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 
-## AI có hỗ trợ không?
+## Was AI Used?
 
-- [ ] Có
-- [ ] Không
+- [ ] Yes
+- [ ] No
 
-Nếu có, mô tả AI đã hỗ trợ phần nào:
+If yes, describe what AI helped with:
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
-## Commit/Screenshot minh chứng
+## Commit / Screenshot Evidence
 
 ```text
-Dán link commit, screenshot hoặc mô tả minh chứng tại đây...
+Add commit link, screenshot, or evidence here...
 ```
 
-## Ghi chú
+## Notes
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-# 4. Tổng kết thay đổi cuối project
+# 4. Final Summary of Changes
 
-## 4.1. Các chức năng đã hoàn thành
+## 4.1. Completed Features
 
-| STT | Chức năng | Trạng thái | Minh chứng | Ghi chú |
+| No. | Feature | Status | Evidence | Notes |
 |---:|---|---|---|---|
 | 1 |  | Completed / Partial / Not Completed |  |  |
 | 2 |  | Completed / Partial / Not Completed |  |  |
@@ -400,9 +399,9 @@ Viết tại đây...
 
 ---
 
-## 4.2. Các chức năng chưa hoàn thành
+## 4.2. Incomplete Features
 
-| STT | Chức năng | Lý do chưa hoàn thành | Hướng cải thiện |
+| No. | Feature | Reason Not Completed | Improvement Plan |
 |---:|---|---|---|
 | 1 |  |  |  |
 | 2 |  |  |  |
@@ -410,41 +409,41 @@ Viết tại đây...
 
 ---
 
-## 4.3. Tổng hợp AI hỗ trợ trong project
+## 4.3. AI Support Summary
 
-| Hạng mục | AI có hỗ trợ không? | Mức độ hỗ trợ | Ghi chú |
+| Area | AI Used? | Support Level | Notes |
 |---|---|---|---|
-| Requirement | Có / Không | Ít / Trung bình / Nhiều |  |
-| Design | Có / Không | Ít / Trung bình / Nhiều |  |
-| Database | Có / Không | Ít / Trung bình / Nhiều |  |
-| Coding | Có / Không | Ít / Trung bình / Nhiều |  |
-| Debug | Có / Không | Ít / Trung bình / Nhiều |  |
-| Testing | Có / Không | Ít / Trung bình / Nhiều |  |
-| Report | Có / Không | Ít / Trung bình / Nhiều |  |
-| Presentation | Có / Không | Ít / Trung bình / Nhiều |  |
+| Requirement | Yes / No | Low / Medium / High |  |
+| Design | Yes / No | Low / Medium / High |  |
+| Database | Yes / No | Low / Medium / High |  |
+| Coding | Yes / No | Low / Medium / High |  |
+| Debugging | Yes / No | Low / Medium / High |  |
+| Testing | Yes / No | Low / Medium / High |  |
+| Report | Yes / No | Low / Medium / High |  |
+| Presentation | Yes / No | Low / Medium / High |  |
 
 ---
 
-## 4.4. Bài học rút ra
+## 4.4. Key Lessons Learned
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-## 4.5. Hướng cải thiện tiếp theo
+## 4.5. Next Improvement Plan
 
 ```text
-Viết tại đây...
+Write here...
 ```
 
 ---
 
-# 5. Cam kết cập nhật Changelog
+# 5. Changelog Commitment
 
-Sinh viên/nhóm cam kết rằng nội dung changelog phản ánh đúng các thay đổi đã thực hiện trong quá trình làm bài tập/project.
+The team confirms that this changelog accurately reflects the changes made during the project.
 
-| Đại diện sinh viên/nhóm | Ngày xác nhận |
+| Team Representative | Confirmation Date |
 |---|---|
 |  |  |

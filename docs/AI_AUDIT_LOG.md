@@ -1,25 +1,22 @@
 # AI Audit Log
 
-## 1. Thông tin chung
+## 1. General Information
 
-| Thông tin | Nội dung |
+| Item | Details |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
-| Ngày bắt đầu |  |
-| Ngày hoàn thành |  |
+| Course |  |
+| Class |  |
+| Semester |  |
+| Assignment / Project |  |
+| Student / Team |  |
+| Student IDs |  |
+| Instructor |  |
+| Start Date |  |
+| Completion Date |  |
 
 ---
 
-## 2. Công cụ AI đã sử dụng
-
-Đánh dấu các công cụ AI đã sử dụng trong quá trình thực hiện bài tập/project.
+## 2. AI Tools Used
 
 - [ ] ChatGPT
 - [ ] Gemini
@@ -29,235 +26,231 @@
 - [ ] Antigravity
 - [ ] Perplexity
 - [ ] Microsoft Copilot
-- [ ] Công cụ khác: ....................................
+- [ ] Other: ....................................
 
 ---
 
-## 3. Mục tiêu sử dụng AI
+## 3. Purpose of AI Usage
 
-Mô tả ngắn gọn sinh viên/nhóm đã sử dụng AI để hỗ trợ những công việc nào.
+Describe briefly what AI was used for in the project.
 
-Ví dụ:
+Examples:
 
-- Phân tích yêu cầu bài toán
-- Gợi ý ý tưởng giải pháp
-- Thiết kế database
-- Thiết kế giao diện
-- Viết code mẫu
-- Debug lỗi
-- Tối ưu code
-- Viết test case
-- Kiểm tra bảo mật
-- Viết báo cáo
-- Chuẩn bị slide thuyết trình
-- Tìm hiểu công nghệ mới
+- Requirement analysis
+- Idea generation
+- Database design
+- UI design
+- Sample code generation
+- Debugging
+- Code optimization
+- Test case writing
+- Security review
+- Report writing
+- Presentation preparation
+- Learning new technology
 
-### Mô tả mục tiêu sử dụng AI
+### AI Usage Purpose
 
 ```text
-Viết tại đây...
-
-## 4. Nhật ký sử dụng AI chi tiết
-
-> Mỗi lần sử dụng AI cho một phần quan trọng của bài tập/project, sinh viên cần ghi lại theo mẫu bên dưới.  
-> Sinh viên/nhóm có thể nhân bản mẫu “Lần sử dụng AI” nhiều lần tùy theo số lần sử dụng AI thực tế.
+Describe here...
+```
 
 ---
 
-### Lần sử dụng AI số 1
+## 4. Detailed AI Usage Log
 
-| Nội dung | Thông tin |
+> Each important AI interaction should be recorded below.  
+> You may duplicate the “AI Usage Entry” section as many times as needed.
+
+---
+
+### AI Usage Entry #01
+
+| Item | Details |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích sử dụng |  |
-| Phần việc liên quan | Requirement / Design / Database / Frontend / Backend / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỗ trợ ý tưởng / Hỗ trợ một phần / Hỗ trợ nhiều / Sinh chính nội dung |
+| Date | 2026-05-12 |
+| AI Tool | ChatGPT |
+| Purpose | Design an initial database schema |
+| Related Work | Design / Database |
+| Usage Level | Idea support |
 
-#### 4.1. Prompt đã sử dụng
-
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
-
-#### 4.2. Kết quả AI gợi ý
-
-Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
+#### 4.1. Prompt Used
 
 ```text
-Viết tại đây...
+Design a database schema for a student management system using SQL Server.
+The system includes students, teachers, classes, courses, semesters, and grade records.
 ```
 
-#### 4.3. Phần sinh viên/nhóm đã sử dụng từ AI
-
-Mô tả rõ phần nào được sử dụng lại từ gợi ý của AI.
+#### 4.2. AI Output Summary
 
 ```text
-Viết tại đây...
+The AI suggested core tables such as Students, Teachers, Classes, Courses, Semesters, and GradeRecords, with relationships between enrollment and grading entities.
 ```
 
-#### 4.4. Phần sinh viên/nhóm tự chỉnh sửa hoặc cải tiến
-
-Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với gợi ý ban đầu của AI.
+#### 4.3. What Was Used from AI
 
 ```text
-Viết tại đây...
+The overall table structure and the suggested relationship model were used as a starting point.
 ```
 
-#### 4.5. Minh chứng
+#### 4.4. What Was Modified by the Team
 
-| Loại minh chứng | Nội dung |
+```text
+The team refined the schema by adding business-specific fields and adjusting foreign key relationships to match the actual requirements.
+```
+
+#### 4.5. Evidence
+
+| Evidence Type | Details |
 |---|---|
-| Link commit |  |
-| File liên quan |  |
+| Commit Link |  |
+| Related File |  |
 | Screenshot |  |
-| Kết quả chạy/test |  |
-| Link video demo |  |
-| Ghi chú khác |  |
+| Run/Test Result |  |
+| Demo Video Link |  |
+| Notes |  |
 
-#### 4.6. Nhận xét cá nhân/nhóm
-
-Sinh viên/nhóm học được gì sau lần sử dụng AI này?
+#### 4.6. Personal / Team Reflection
 
 ```text
-Viết tại đây...
+AI helped speed up the first draft, but the final version still required human review to fit the real system rules.
 ```
 
 ---
 
-### Lần sử dụng AI số 2
+### AI Usage Entry #02
 
-| Nội dung | Thông tin |
+| Item | Details |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích sử dụng |  |
-| Phần việc liên quan | Requirement / Design / Database / Frontend / Backend / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỗ trợ ý tưởng / Hỗ trợ một phần / Hỗ trợ nhiều / Sinh chính nội dung |
+| Date | 2026-05-13 |
+| AI Tool | GitHub Copilot |
+| Purpose | Review and improve frontend code structure |
+| Related Work | Frontend / Code Review |
+| Usage Level | Partial support |
 
-#### 4.1. Prompt đã sử dụng
-
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
-
-#### 4.2. Kết quả AI gợi ý
+#### 4.1. Prompt Used
 
 ```text
-Viết tại đây...
+Review this React Native screen and suggest improvements for structure, readability, and style organization.
 ```
 
-#### 4.3. Phần sinh viên/nhóm đã sử dụng từ AI
+#### 4.2. AI Output Summary
 
 ```text
-Viết tại đây...
+The AI recommended splitting the layout into smaller sections, using clearer component names, and grouping styles consistently.
 ```
 
-#### 4.4. Phần sinh viên/nhóm tự chỉnh sửa hoặc cải tiến
+#### 4.3. What Was Used from AI
 
 ```text
-Viết tại đây...
+The team followed the suggestion to separate the interface into logical blocks and improve naming consistency.
 ```
 
-#### 4.5. Minh chứng
+#### 4.4. What Was Modified by the Team
 
-| Loại minh chứng | Nội dung |
+```text
+The team adjusted the final layout and refined the styling based on the project’s presentation needs.
+```
+
+#### 4.5. Evidence
+
+| Evidence Type | Details |
 |---|---|
-| Link commit |  |
-| File liên quan |  |
+| Commit Link |  |
+| Related File |  |
 | Screenshot |  |
-| Kết quả chạy/test |  |
-| Link video demo |  |
-| Ghi chú khác |  |
+| Run/Test Result |  |
+| Demo Video Link |  |
+| Notes |  |
 
-#### 4.6. Nhận xét cá nhân/nhóm
+#### 4.6. Personal / Team Reflection
 
 ```text
-Viết tại đây...
+Copilot was useful for quick in-editor review, but the team still had to verify the final behavior manually.
 ```
 
 ---
 
-### Lần sử dụng AI số 3
+### AI Usage Entry #03
 
-| Nội dung | Thông tin |
+| Item | Details |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích sử dụng |  |
-| Phần việc liên quan | Requirement / Design / Database / Frontend / Backend / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỗ trợ ý tưởng / Hỗ trợ một phần / Hỗ trợ nhiều / Sinh chính nội dung |
+| Date | 2026-05-14 |
+| AI Tool | ChatGPT |
+| Purpose | Refine written documentation |
+| Related Work | Report / Documentation |
+| Usage Level | Partial support |
 
-#### 4.1. Prompt đã sử dụng
-
-```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
-```
-
-#### 4.2. Kết quả AI gợi ý
+#### 4.1. Prompt Used
 
 ```text
-Viết tại đây...
+Help improve the wording and structure of our project documentation so it is clear, formal, and easy to evaluate.
 ```
 
-#### 4.3. Phần sinh viên/nhóm đã sử dụng từ AI
+#### 4.2. AI Output Summary
 
 ```text
-Viết tại đây...
+The AI suggested more structured headings, clearer descriptions, and concise technical language.
 ```
 
-#### 4.4. Phần sinh viên/nhóm tự chỉnh sửa hoặc cải tiến
+#### 4.3. What Was Used from AI
 
 ```text
-Viết tại đây...
+The team reused the general structure and wording style for the project notes.
 ```
 
-#### 4.5. Minh chứng
+#### 4.4. What Was Modified by the Team
 
-| Loại minh chứng | Nội dung |
+```text
+The final text was rewritten to match the team’s own project context and documentation style.
+```
+
+#### 4.5. Evidence
+
+| Evidence Type | Details |
 |---|---|
-| Link commit |  |
-| File liên quan |  |
+| Commit Link |  |
+| Related File |  |
 | Screenshot |  |
-| Kết quả chạy/test |  |
-| Link video demo |  |
-| Ghi chú khác |  |
+| Run/Test Result |  |
+| Demo Video Link |  |
+| Notes |  |
 
-#### 4.6. Nhận xét cá nhân/nhóm
+#### 4.6. Personal / Team Reflection
 
 ```text
-Viết tại đây...
+The team learned that AI-generated writing is useful only after it is checked, edited, and aligned with the project context.
 ```
 
 ---
 
-## 5. Bảng tổng hợp mức độ sử dụng AI
+## 5. AI Usage Summary by Area
 
-Đánh dấu mức độ AI hỗ trợ ở từng hạng mục.
+Mark the level of support AI provided in each area.
 
-| Hạng mục | Không dùng AI | AI hỗ trợ ít | AI hỗ trợ nhiều | AI sinh chính | Ghi chú |
+| Area | No AI | AI Assisted a Little | AI Assisted a Lot | AI Generated Main Content | Notes |
 |---|:---:|:---:|:---:|:---:|---|
-| Phân tích yêu cầu |  |  |  |  |  |
-| Viết user story/use case |  |  |  |  |  |
-| Thiết kế database |  |  |  |  |  |
-| Thiết kế kiến trúc hệ thống |  |  |  |  |  |
-| Thiết kế giao diện |  |  |  |  |  |
-| Code frontend |  |  |  |  |  |
-| Code backend |  |  |  |  |  |
-| Debug lỗi |  |  |  |  |  |
-| Viết test case |  |  |  |  |  |
-| Kiểm thử sản phẩm |  |  |  |  |  |
-| Tối ưu code |  |  |  |  |  |
-| Viết báo cáo |  |  |  |  |  |
-| Làm slide thuyết trình |  |  |  |  |  |
+| Requirement analysis |  |  |  |  |  |
+| User story / use case writing |  |  |  |  |  |
+| Database design |  |  |  |  |  |
+| System architecture |  |  |  |  |  |
+| UI design |  |  |  |  |  |
+| Frontend code |  |  |  |  |  |
+| Backend code |  |  |  |  |  |
+| Debugging |  |  |  |  |  |
+| Test case writing |  |  |  |  |  |
+| Product testing |  |  |  |  |  |
+| Code optimization |  |  |  |  |  |
+| Report writing |  |  |  |  |  |
+| Presentation slides |  |  |  |  |  |
 
 ---
 
-## 6. Các lỗi hoặc hạn chế từ AI
+## 6. AI Errors or Limitations
 
-Ghi lại các trường hợp AI trả lời sai, thiếu, chưa phù hợp hoặc sinh code không chạy.
+Record cases where AI responses were inaccurate, incomplete, or not suitable.
 
-| STT | Lỗi/hạn chế từ AI | Cách phát hiện | Cách xử lý/cải tiến |
+| No. | AI Issue | How It Was Detected | How It Was Fixed |
 |---:|---|---|---|
 | 1 |  |  |  |
 | 2 |  |  |  |
