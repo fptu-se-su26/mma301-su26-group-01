@@ -4,14 +4,14 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học |  |
-| Mã môn học |  |
-| Lớp |  |
-| Học kỳ |  |
-| Tên bài tập / Project |  |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
+| Môn học | Mobile Programming |
+| Mã môn học | MMA301 |
+| Lớp | se19b05 |
+| Học kỳ | SU26 |
+| Tên bài tập / Project | Food Expiry Tracking Mobile App |
+| Tên sinh viên / Nhóm | Group 01 |
+| MSSV / Danh sách MSSV | DE180054 |
+| Giảng viên hướng dẫn | THẦY QUANG |
 | Ngày bắt đầu |  |
 | Ngày hoàn thành |  |
 
@@ -21,36 +21,30 @@
 
 Đánh dấu các công cụ AI đã sử dụng trong quá trình thực hiện bài tập/project.
 
-- [ ] ChatGPT
-- [ ] Gemini
-- [ ] Claude
-- [ ] GitHub Copilot
-- [ ] Cursor
-- [ ] Antigravity
+- [X] ChatGPT
+- [X] Gemini
+- [X] Claude
+- [X] GitHub Copilot
+- [X] Cursor
+- [X] Antigravity
 - [ ] Perplexity
-- [ ] Microsoft Copilot
+- [X] Microsoft Copilot
 - [ ] Công cụ khác: ....................................
 
 ---
 
 ## 3. Mục tiêu sử dụng AI
 
-Mô tả ngắn gọn sinh viên/nhóm đã sử dụng AI để hỗ trợ những công việc nào.
-
-Ví dụ:
-
-- Phân tích yêu cầu bài toán
-- Gợi ý ý tưởng giải pháp
-- Thiết kế database
-- Thiết kế giao diện
-- Viết code mẫu
-- Debug lỗi
-- Tối ưu code
-- Viết test case
-- Kiểm tra bảo mật
-- Viết báo cáo
-- Chuẩn bị slide thuyết trình
-- Tìm hiểu công nghệ mới
+Các mục tiêu sử dụng AI bao gồm:
+- Phân tích yêu cầu hệ thống
+- Gợi ý ý tưởng và giải pháp cho ứng dụng
+- Thiết kế database và mô hình dữ liệu
+- Hỗ trợ thiết kế giao diện mobile
+- Viết code mẫu cho các chức năng như barcode scanner và notification
+- Debug và xử lý lỗi trong quá trình phát triển
+- Tối ưu logic xử lý dữ liệu và thông báo
+- Hỗ trợ viết tài liệu dự án và AI audit documents
+- Tìm hiểu và sử dụng các thư viện, công nghệ mới liên quan đến React Native Expo
 
 ### Mô tả mục tiêu sử dụng AI
 
@@ -68,16 +62,25 @@ Viết tại đây...
 
 | Nội dung | Thông tin |
 |---|---|
-| Ngày sử dụng |  |
-| Công cụ AI | ChatGPT / Gemini / Claude / GitHub Copilot / Cursor / Antigravity / Khác |
-| Mục đích sử dụng |  |
-| Phần việc liên quan | Requirement / Design / Database / Frontend / Backend / Testing / Debug / Report / Presentation / Other |
-| Mức độ sử dụng | Hỗ trợ ý tưởng / Hỗ trợ một phần / Hỗ trợ nhiều / Sinh chính nội dung |
+| Ngày sử dụng | 2026-05-15 |
+| Công cụ AI | ChatGPT |
+| Mục đích sử dụng | Thiết kế database cho ứng dụng quản lý hạn sử dụng thực phẩm |
+| Phần việc liên quan | Database / Backend |
+| Mức độ sử dụng | Hỗ trợ nhiều |
 
 #### 4.1. Prompt đã sử dụng
 
 ```text
-Dán nguyên văn prompt đã hỏi AI tại đây.
+Design a database schema for a mobile application that helps users scan food products, track expiry dates, and notify users before products expire.
+
+The system should include:
+- User accounts
+- Product management
+- Barcode scanning history
+- Expiry tracking
+- Notifications
+
+Use SQL Server database design.
 ```
 
 #### 4.2. Kết quả AI gợi ý
@@ -85,7 +88,14 @@ Dán nguyên văn prompt đã hỏi AI tại đây.
 Tóm tắt nội dung AI đã trả lời hoặc gợi ý.
 
 ```text
-Viết tại đây...
+AI suggested creating the following tables:
+- Users
+- Products
+- ScanHistory
+- ExpiryTracking
+- Notifications
+
+AI also suggested relationships between users and products, and basic notification logic for expired products.
 ```
 
 #### 4.3. Phần sinh viên/nhóm đã sử dụng từ AI
@@ -93,7 +103,11 @@ Viết tại đây...
 Mô tả rõ phần nào được sử dụng lại từ gợi ý của AI.
 
 ```text
-Viết tại đây...
+Nhóm sử dụng cấu trúc database cơ bản do AI gợi ý, bao gồm:
+- Users table
+- Products table
+- Notification table
+- Quan hệ giữa user và product
 ```
 
 #### 4.4. Phần sinh viên/nhóm tự chỉnh sửa hoặc cải tiến
@@ -101,7 +115,11 @@ Viết tại đây...
 Mô tả sinh viên/nhóm đã thay đổi, kiểm tra, sửa lỗi hoặc cải tiến gì so với gợi ý ban đầu của AI.
 
 ```text
-Viết tại đây...
+Nhóm đã tự chỉnh sửa và cải tiến:
+- Thêm Barcode field cho sản phẩm
+- Thêm ExpiryStatus để quản lý trạng thái hạn sử dụng
+- Điều chỉnh quan hệ database phù hợp với yêu cầu thực tế
+- Kiểm tra và sửa một số kiểu dữ liệu chưa phù hợp
 ```
 
 #### 4.5. Minh chứng
@@ -120,7 +138,9 @@ Viết tại đây...
 Sinh viên/nhóm học được gì sau lần sử dụng AI này?
 
 ```text
-Viết tại đây...
+Sau lần sử dụng AI này, nhóm hiểu rõ hơn cách thiết kế database cho ứng dụng mobile và cách tổ chức quan hệ dữ liệu.
+
+Nhóm nhận thấy AI giúp tiết kiệm thời gian xây dựng cấu trúc ban đầu, tuy nhiên vẫn cần kiểm tra và điều chỉnh lại theo yêu cầu thực tế của hệ thống.
 ```
 
 ---
