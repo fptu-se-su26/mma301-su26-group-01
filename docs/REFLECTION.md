@@ -4,14 +4,14 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| Môn học | Ứng dụng di động / Mobile App Development |
-| Mã môn học |  |
-| Lớp |  |
+| Môn học | Multiplatform Mobile App Development |
+| Mã môn học | MMA301 |
+| Lớp | SE19B05 |
 | Học kỳ | SU26 |
 | Tên bài tập / Project | MyFirstProject |
-| Tên sinh viên / Nhóm |  |
-| MSSV / Danh sách MSSV |  |
-| Giảng viên hướng dẫn |  |
+| Tên sinh viên / Nhóm | Lê Đình Nhật Nam / Group 1 |
+| MSSV / Danh sách MSSV | DE180005 |
+| Giảng viên hướng dẫn | Lê Thiện Nhật Quang |
 | Ngày hoàn thành reflection | 2026-05-16 |
 
 ---
@@ -97,8 +97,8 @@ AI vẫn có xu hướng trả lời chung chung nếu prompt thiếu bối cả
 
 ### 6.3. Em/nhóm có bị phụ thuộc vào AI không?
 
-- [x] Phụ thuộc ít
-- [ ] Phụ thuộc trung bình
+- [ ] Phụ thuộc ít
+- [x] Phụ thuộc trung bình
 - [ ] Phụ thuộc nhiều
 - [ ] Không phụ thuộc
 
