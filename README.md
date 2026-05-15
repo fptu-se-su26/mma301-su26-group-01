@@ -4,12 +4,12 @@
 
 | Item | Description |
 |---|---|
-| Course |  |
-| Class |  |
+| Course | MMA301 |
+| Class | SE19B05 |
 | Semester | SU26 |
-| Group |  |
-| Topic |  |
-| Repository |  |
+| Group | 1 |
+| Topic | Smart Fridge: A Mobile Application for Inventory Management and Recipe Recommendation |
+| Repository | mma301-su26-group-01 |
 
 ---
 
@@ -17,11 +17,11 @@
 
 | No | Student ID | Full Name | GitHub Username | Role | Main Responsibility |
 |---:|---|---|---|---|---|
-| 1 |  |  |  | Leader |  |
-| 2 |  |  |  | Member |  |
-| 3 |  |  |  | Member |  |
-| 4 |  |  |  | Member |  |
-| 5 |  |  |  | Member |  |
+| 1 | DE180054 | Trần Đức Thắng | thangdepzai12-dev | Leader |  |
+| 2 | DE180154 | Võ Phạm Mỹ |  | Member |  |
+| 3 | DE180005 | Lê Đình Nhật Nam | LeDinhNhatNam | Member |  |
+| 4 | DE190487 | Nguyễn Đức Huy |  | Member |  |
+| 5 | DE180396 | Nguyễn Minh Thông | minhthong-git | Member |  |
 
 ---
 
